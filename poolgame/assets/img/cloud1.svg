@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="274px" viewBox="0 0 320 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>cloud2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="15.6361667%" y1="91.7578434%" x2="56.5115333%" y2="-1.09054963%" id="linearGradient-1">
+            <stop stop-color="#F9F1CD" offset="0%"></stop>
+            <stop stop-color="#9C9C9C" offset="19.71%"></stop>
+            <stop stop-color="#BEBEBE" offset="35%"></stop>
+            <stop stop-color="#DADADA" offset="51.44%"></stop>
+            <stop stop-color="#EFEFEF" offset="67.87%"></stop>
+            <stop stop-color="#FBFBFB" offset="84.12%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.6361667%" y1="91.7578434%" x2="56.5115333%" y2="-1.09054963%" id="linearGradient-2">
+            <stop stop-color="#F9F1CD" offset="0%"></stop>
+            <stop stop-color="#9C9C9C" offset="19.71%"></stop>
+            <stop stop-color="#BEBEBE" offset="35%"></stop>
+            <stop stop-color="#DADADA" offset="51.44%"></stop>
+            <stop stop-color="#EFEFEF" offset="67.87%"></stop>
+            <stop stop-color="#FBFBFB" offset="84.12%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.437476749">
+        <g id="cloud2" fill="url(#linearGradient-2)" fill-rule="nonzero">
+            <g id="Page-1" opacity="0.3">
+                <g id="cloud2" opacity="0.15">
+                    <g id="Page-1">
+                        <g id="cloud2">
+                            <g id="Page-1">
+                                <g id="cloud2">
+                                    <g id="Page-1">
+                                        <g id="cloud1">
+                                            <path d="M320,0 C274.666666,144.493975 150.826666,252.864456 0,273.53754 L0,0 L320,0 Z" id="Path"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

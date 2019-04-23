@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  background-image: linear-gradient(90deg, #151536 0%, #090919 100%);
+  color: #f2f2f1;
+}
+
+body {
+  background-color: var(--primary-color);
+  overflow: auto;
+  font-family: 'Baloo', cursive, sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ff;
+}
+
+section {
+  padding: 10rem 0;
+  /* background-color: #fff; */
+  background-image: linear-gradient(90deg, #151536 0%, #090919 100%);
+}
+
+
+.btn__home {
+  top: 3rem;
+  left: 3rem;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-image: url('/assets/icons/back.svg');
+}
+
+.btn__home:hover {
+  background-image: url('/assets/icons/back-hover.svg');
+}
+
+.btn__forward {
+  top: 3rem;
+  right: 3rem;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-image: url('/assets/icons/forward.svg');
+}
+
+.btn__forward:hover {
+  background-image: url('./assets/icons/forward-hover.svg');
+}
+
+
+
+.heading {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  letter-spacing: ¨3px;
+  margin-right: -3px;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #f2f2f1;
+  position: relative;
+  font-family: 'Baloo', cursive, sans-serif;
+}
+
+.heading::after {
+  content: '';
+  width: 10rem;
+  height: .8rem;
+  background-image: linear-gradient(-222deg, #2A1FAE 19%, #41229B 38%, #4B2492 62%, #7C599F 76%, #F0EDF0 92%);
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+
+.card__wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 32em;
+  background-color: #ebeef8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  box-shadow: 0 0 300px 0 rgba(144,118,178,0.34);
+}
+
+.card .card__img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+
+.profile__img {
+  width: 16rem;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -11rem;
+  z-index: 999;
+  border: 1rem solid #321B99;
+  transform: rotate(0deg);
+background-image: linear-gradient(-201deg, #2A1FAE 45%, #4B2492 65%, #A887AB 96%);
+background-image: linear-gradient(-222deg, #2A1FAE 19%, #41229B 38%, #4B2492 62%, #7C599F 76%, #F0EDF0 92%);
+box-shadow: 0 0 30px 0 #5609BC;
+
+}
+
+.card h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 1.2rem 0;
+  font-weight: bolder;
+}
+
+.job__title {
+  color: #777;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.job__description {
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  text-align: center;
+  color: #333;
+  padding: 0 2rem 0 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card .btn__contact{
+  padding: 1rem 2.5rem;
+  background-color: #321B99;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  color: #eee;
+  font-size: 1.4rem;
+  opacity: 0.9;
+}
+
+.card .btn__contact:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px 0 rgba(144,118,178,0.34);
+}
+
+.card .btn__contact:active {
+  transform: translateY(0);
+  box-shadow: none;
+  opacity: none;
+}
+
+.social__media {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+  border: 0.1px solid rgba(151,151,151,0.20);
+}
+
+.social__links {
+  width: 2rem;
+  height: 2rem
+}
+
+.social__links:hover {
+  opacity: 0.5;
+}
+
+
+
+/* mobile resposive settings  */
+@media screen and (min-width: 700px) {
+  .card__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 2rem;
+    transition: transform 0.5s;
+  }
+
+  @@keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+  }
+    .card:nth-child(1) {
+      animation: fadeIn .5s .5s backwards;
+    }
+    .card:nth-child(2) {
+      animation: fadeIn .5s .1s backwards;
+    }
+    .card:nth-child(3) {
+      animation: fadeIn .5s 1.5s backwards;
+    }
+    .card:nth-child(4) {
+      animation: fadeIn .5s 2s backwards;
+    }
+    .card:hover{
+      transform: scale(1.05);
+    }
+
+}

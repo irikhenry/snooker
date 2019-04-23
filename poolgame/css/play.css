@@ -1,0 +1,36 @@
+body {
+    background-color: var(--primary-color);
+    font-family: 'Baloo', cursive, sans-serif;
+}
+
+
+/* #sketch-holder {
+  width: auto;
+  height: 100vh;
+  position: fixed;
+  align-items: center;
+  background-image: url('assets/img/board.png');
+  background-repeat: no-repeat; */
+
+}
+
+/* .sketch-holder {
+  width: auto;
+  height: 100vh;
+  position: fixed;
+  align-items: center;
+  background-image: url('assets/img/board.png');
+  background-repeat: no-repeat;
+} */
+
+/* .board__bg {
+  width: auto;
+  height: 60vh;
+} */
+
+
+/* #sketch-holder {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+} */

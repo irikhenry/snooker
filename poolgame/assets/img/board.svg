@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="665px" height="365px" viewBox="0 0 665 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>board</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100.014761%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#79665C" offset="0%"></stop>
+            <stop stop-color="#7F6D64" offset="5.304157%"></stop>
+            <stop stop-color="#918179" offset="13.4%"></stop>
+            <stop stop-color="#AEA29C" offset="23.28%"></stop>
+            <stop stop-color="#D5CECB" offset="34.47%"></stop>
+            <stop stop-color="#E2DDDB" offset="37.81%"></stop>
+            <stop stop-color="#FFFFFF" offset="68.51%"></stop>
+            <stop stop-color="#D6D0CD" offset="76.99%"></stop>
+            <stop stop-color="#705B51" offset="96.26%"></stop>
+            <stop stop-color="#5C4438" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="board" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
+            <path d="M655.4,363 L7.6,363 C3.4,363 0,359.6 0,355.4 L0,7.6 C0,3.4 3.4,0 7.6,0 L655.3,0 C659.5,0 662.9,3.4 662.9,7.6 L662.9,355.3 C663,359.6 659.6,363 655.4,363 Z" id="Path" stroke="#090901" stroke-width="0.25" fill="url(#linearGradient-1)"></path>
+            <path d="M629.2,331.5 L33.8,331.5 C32.5,331.5 31.4,330.4 31.4,329.1 L31.4,33.9 C31.4,32.6 32.5,31.5 33.8,31.5 L629.3,31.5 C630.6,31.5 631.7,32.6 631.7,33.9 L631.7,329 C631.6,330.4 630.6,331.5 629.2,331.5 Z" id="Path" fill="#3ACC4A"></path>
+            <circle id="Oval" stroke="#25822B" stroke-width="0.01" fill="#090901" cx="31.4" cy="31.5" r="18"></circle>
+            <circle id="Oval" stroke="#25822B" stroke-width="0.01" fill="#090901" cx="31.4" cy="331.5" r="18"></circle>
+            <circle id="Oval" stroke="#25822B" stroke-width="0.01" fill="#090901" cx="330.2" cy="331.5" r="18"></circle>
+            <circle id="Oval" stroke="#25822B" stroke-width="0.01" fill="#090901" cx="631.6" cy="331.5" r="18"></circle>
+            <circle id="Oval" stroke="#25822B" stroke-width="0.01" fill="#090901" cx="330.2" cy="31.5" r="18"></circle>
+            <circle id="Oval" stroke="#25822B" stroke-width="0.01" fill="#090901" cx="631.6" cy="31.5" r="18"></circle>
+        </g>
+    </g>
+</svg>

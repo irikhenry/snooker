@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="47.5849342%" y1="43.9416611%" x2="28.5475162%" y2="91.1498593%" id="linearGradient-1">
+            <stop stop-color="#2A1FAE" offset="0%"></stop>
+            <stop stop-color="#4B2492" offset="38.7915517%"></stop>
+            <stop stop-color="#A887AB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="69.1073157%" y1="25.4921963%" x2="19.4703992%" y2="79.3882695%" id="linearGradient-2">
+            <stop stop-color="#2A1FAE" offset="0%"></stop>
+            <stop stop-color="#41229B" offset="26.4496821%"></stop>
+            <stop stop-color="#4B2492" offset="58.3704564%"></stop>
+            <stop stop-color="#7C599F" offset="78.3508867%"></stop>
+            <stop stop-color="#F0EDF0" offset="99.9445735%"></stop>
+        </linearGradient>
+        <linearGradient x1="27.2722136%" y1="95.2344963%" x2="74.9540698%" y2="7.67166635%" id="linearGradient-3">
+            <stop stop-color="#090919" offset="0%"></stop>
+            <stop stop-color="#090919" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="16.9984343%" y1="86.491327%" x2="83.6110826%" y2="11.8634807%" id="linearGradient-4">
+            <stop stop-color="#951621" offset="0%"></stop>
+            <stop stop-color="#2B1EA8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.242908296">
+        <g id="btn" transform="translate(-20.000000, -20.000000)">
+            <g id="Oval-Copy" transform="translate(144.980036, 144.869233) scale(-1, 1) rotate(-101.000000) translate(-144.980036, -144.869233) translate(21.480036, 21.369233)">
+                <g id="path-5-link" fill="#000000" fill-rule="nonzero">
+                    <circle id="path-5" cx="123.20965" cy="123.20965" r="123"></circle>
+                </g>
+                <g id="path-5-link" fill="url(#linearGradient-1)">
+                    <circle id="path-5" cx="123.20965" cy="123.20965" r="123"></circle>
+                </g>
+                <g id="path-5-link" fill="url(#linearGradient-2)" fill-opacity="0.4" stroke="url(#linearGradient-3)" stroke-width="3">
+                    <circle id="path-5" cx="123.20965" cy="123.20965" r="123"></circle>
+                </g>
+                <g id="path-5-link" stroke="url(#linearGradient-4)" stroke-width="3">
+                    <circle id="path-5" cx="123.20965" cy="123.20965" r="123"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
